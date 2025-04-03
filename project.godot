@@ -11,10 +11,35 @@ config_version=5
 [application]
 
 config/name="Stick's Adventure"
+run/main_scene="res://main_menu.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://c4265aq4g114x"
+
+[display]
+
+window/size/viewport_width=256
+window/size/viewport_height=192
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
+
+[input]
+
+a_button={
+"deadzone": 0.2,
+"events": []
+}
+start_button={
+"deadzone": 0.2,
+"events": []
+}
+b_button={
+"deadzone": 0.2,
+"events": []
+}
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
