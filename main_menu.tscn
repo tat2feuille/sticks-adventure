@@ -1,6 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://b5376to8c3sd0"]
+[gd_scene load_steps=5 format=3 uid="uid://b5376to8c3sd0"]
 
-[ext_resource type="Texture2D" uid="uid://b1r17m5150fut" path="res://assets/ui/StartGameButton.png" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://b1r17m5150fut" path="res://assets/ui/menu/StartGameButton.png" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://cuviimm8uyado" path="res://assets/ui/menu/cloudSE.png" id="1_fu7sn"]
+[ext_resource type="Texture2D" uid="uid://krxyq4xnjfwt" path="res://assets/ui/menu/SettingsButton.png" id="3_jix8l"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06t4h"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
@@ -13,6 +15,14 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="CloudSE" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 139.0
+offset_right = 256.0
+offset_bottom = 192.0
+texture = ExtResource("1_fu7sn")
 
 [node name="StartGameButton" type="Button" parent="."]
 layout_mode = 0
@@ -32,3 +42,22 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_06t4h")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_06t4h")
 theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
 icon = ExtResource("1_06t4h")
+
+[node name="SettingsButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 105.0
+offset_right = 138.0
+offset_bottom = 119.0
+theme_override_styles/focus = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_06t4h")
+theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
+icon = ExtResource("3_jix8l")

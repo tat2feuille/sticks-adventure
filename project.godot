@@ -13,7 +13,7 @@ config_version=5
 config/name="Stick's Adventure"
 run/main_scene="res://main_menu.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="uid://c4265aq4g114x"
+config/icon="uid://rchx3yup0paj"
 
 [display]
 
