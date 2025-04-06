@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://dv64f66boif4n"]
+
+[ext_resource type="FontFile" uid="uid://butr4kl1lxgad" path="res://fonts/Fontail_nodip.ttf" id="1_kfvom"]
+
+[resource]
+base_font = ExtResource("1_kfvom")
+spacing_bottom = -2

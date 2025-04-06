@@ -1,0 +1,56 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://jwxjnbihd8jl"]
+
+[ext_resource type="FontFile" uid="uid://cdqhbodk3gvpa" path="res://fonts/Fontail_small.ttf" id="1_ewrjg"]
+[ext_resource type="Texture2D" uid="uid://b7ake5kwyoc6u" path="res://assets/ui/settings/ratio_check.png" id="2_8y6b8"]
+[ext_resource type="Texture2D" uid="uid://bje03krwh3d45" path="res://assets/ui/settings/ratio.png" id="3_7yto2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w48qg"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8y6b8"]
+bg_color = Color(0, 0, 0, 1)
+draw_center = false
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2cqfq"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+
+[resource]
+PopupDialog/styles/panel = SubResource("StyleBoxFlat_w48qg")
+PopupMenu/colors/font_color = Color(0, 0, 0, 1)
+PopupMenu/colors/font_hover_color = Color(0, 0, 0, 1)
+PopupMenu/font_sizes/font_size = 7
+PopupMenu/fonts/font = ExtResource("1_ewrjg")
+PopupMenu/fonts/font_separator = null
+PopupMenu/icons/radio_checked = ExtResource("2_8y6b8")
+PopupMenu/icons/radio_unchecked = ExtResource("3_7yto2")
+PopupMenu/styles/hover = SubResource("StyleBoxFlat_8y6b8")
+PopupMenu/styles/panel = SubResource("StyleBoxFlat_2cqfq")
